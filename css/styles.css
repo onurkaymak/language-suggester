@@ -42,7 +42,7 @@ h2 {
   align-items: center;
 }
 
-.questions_item-container {
+.questions_item {
   width: 50%;
   background-color: yellow;
   display: flex;
@@ -65,7 +65,7 @@ h2 {
 }
 
 .questions_input_item-container {
-  background-color: blue;
+  background-color: salmon;
   display: flex;
 }
 
