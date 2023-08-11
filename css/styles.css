@@ -1,15 +1,27 @@
 /* CSS RESET  */
-
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: inherit;
   margin: 0;
   padding: 0;
+}
+
+html {
+  /* This defines what 1rem is */
+  font-size: 62.5%; /* 1 rem = 10px; 10px/16px (16px is default browser value, I use 10px for easy calculations) = 62.5%; */
 }
 
 .container_main {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+h1 {
+  margin: 30px;
+}
+
+h2 {
+  margin: 30px;
 }
