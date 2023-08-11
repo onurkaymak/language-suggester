@@ -1,3 +1,4 @@
+// Business Logic
 function programCalculator() {
     const question1 = document.querySelector("input[name='question-1']:checked");
     const question2 = document.querySelector("input[name='question-2']:checked");
@@ -100,26 +101,36 @@ function programCalculator() {
         document.getElementById('p-jv').removeAttribute("class");
     }
     else if (cSharp > javaScript && cSharp > python && cSharp > java) {
-        document.getElementById('p-cS').removeAttribute("class");
+        document.getElementById('p-cs').removeAttribute("class");
     }
     else {
         document.getElementById('p-try').removeAttribute("class");
     }
 
+    console.log(javaScript)
+    console.log(python)
+    console.log(java)
+    console.log(cSharp)
+
 }
 
 
+// UI Logic
+function formCleaner() {
+    document.getElementById('p-js').setAttribute("class", "hidden");
+    document.getElementById('p-py').setAttribute("class", "hidden");
+    document.getElementById('p-jv').setAttribute("class", "hidden");
+    document.getElementById('p-cs').setAttribute("class", "hidden");
+    document.getElementById('p-try').setAttribute("class", "hidden");
+}
 
 function formHandler(event) {
     event.preventDefault();
-
     programCalculator();
+    document.getElementById("form").reset();
+
 
 }
-
-
-
-
 
 
 
