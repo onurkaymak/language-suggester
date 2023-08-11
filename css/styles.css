@@ -33,7 +33,7 @@ h2 {
   margin: 30px;
 }
 
-.questions_container-main {
+.questions_main-container {
   width: 100%;
   height: 100%;
   background-color: red;
@@ -42,11 +42,34 @@ h2 {
   align-items: center;
 }
 
-.questions_container-input {
+.questions_item-container {
   width: 50%;
   background-color: yellow;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 2rem 0 2rem 0;
+}
+
+.questions_input-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.questions_input-item {
+  background-color: yellowgreen;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.questions_input_item-container {
+  background-color: blue;
+  display: flex;
+}
+
+input,
+label {
+  margin: 0.5rem;
 }
