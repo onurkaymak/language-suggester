@@ -83,9 +83,9 @@ function calculator(event) {
     console.log(java)
     console.log(cSharp)
 
-    let content;
-    if (javaScript > python && java && cSharp) {
-        document.getElementById('p-js').classList.remove('hidden');
+
+    if (javaScript > python && javaScript > java && javaScript > cSharp) {
+        document.getElementById('p-js').removeAttribute("class");
     }
 
 
