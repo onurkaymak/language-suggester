@@ -307,19 +307,59 @@
             </div>
           </div>
         </div>
-        <button class="btn_form" type="submit">Find Your Future!</button>
+        <button
+          class="btn_form"
+          type="submit"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Find Your Future!
+        </button>
       </form>
 
-      <div class="modal-dialog modal-lg">
-        <p>
-          JavaScript - The Script Sorcerer! Ah, JavaScript, the enchanting
-          language of the web! You're the kind of coder who enjoys casting
-          spells in the browser and conjuring interactive web pages out of thin
-          air. With JavaScript, you'll be weaving spells of interactivity and
-          breathing life into static websites faster than a wizard chasing a
-          golden snitch. Get ready to sprinkle your code with a touch of magic
-          that captivates users and keeps them coming back for more!
-        </p>
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                Modal title
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body" id="modal-p">
+              <p id="p-js" class="hidden">
+                JavaScript - The Script Sorcerer 🧙‍♂️ Ah, JavaScript, the
+                enchanting language of the web! You're the kind of coder who
+                enjoys casting spells in the browser and conjuring interactive
+                web pages out of thin air. With JavaScript, you'll be weaving
+                spells of interactivity and breathing life into static websites
+                faster than a wizard chasing a golden snitch. Get ready to
+                sprinkle your code with a touch of magic that captivates users
+                and keeps them coming back for more!
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 

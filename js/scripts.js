@@ -78,10 +78,16 @@ function calculator(event) {
     }
 
 
-    console.log(javaScript);
-    console.log(python);
-    console.log(java);
-    console.log(cSharp);
+    console.log(javaScript)
+    console.log(python)
+    console.log(java)
+    console.log(cSharp)
+
+    let content;
+    if (javaScript > python && java && cSharp) {
+        document.getElementById('p-js').classList.remove('hidden');
+    }
+
 
 
 

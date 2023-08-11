@@ -84,3 +84,7 @@ label {
 .btn_form:hover {
   border-radius: 50px;
 }
+
+.hidden {
+  display: none;
+}
