@@ -106,12 +106,6 @@ function programCalculator() {
     else {
         document.getElementById('p-try').removeAttribute("class");
     }
-
-    console.log(javaScript)
-    console.log(python)
-    console.log(java)
-    console.log(cSharp)
-
 }
 
 
@@ -131,8 +125,6 @@ function formHandler(event) {
 
 
 }
-
-
 
 window.addEventListener("load", function () {
     const form = document.getElementById("form");

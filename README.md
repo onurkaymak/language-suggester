@@ -10,6 +10,7 @@
 - _Bootstrap_
 - _Git_
 - _VS Code_
+- _ChatGPT (Only for the funny answers!)_
 
 ## Description
 
