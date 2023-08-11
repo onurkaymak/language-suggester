@@ -12,6 +12,13 @@ html {
   font-size: 62.5%; /* 1 rem = 10px; 10px/16px (16px is default browser value, I use 10px for easy calculations) = 62.5%; */
 }
 
+body {
+  font-weight: 300;
+  line-height: 1.6;
+  font-size: 1.6rem;
+  background-color: #fff;
+}
+
 .container_main {
   display: flex;
   flex-direction: column;
@@ -24,4 +31,21 @@ h1 {
 
 h2 {
   margin: 30px;
+}
+
+.questions_container-main {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.questions_container_input {
+  width: 50%;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0 2rem 0;
 }
