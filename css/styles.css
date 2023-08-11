@@ -36,7 +36,7 @@ h2 {
 .questions_main-container {
   width: 100%;
   height: 100%;
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,7 +44,7 @@ h2 {
 
 .questions_item {
   width: 70%;
-  background-color: yellow;
+  background-color: goldenrod;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,18 +58,29 @@ h2 {
 }
 
 .questions_input-item {
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
   width: 100%;
   display: flex;
   justify-content: space-around;
 }
 
 .questions_input_item-container {
-  background-color: salmon;
+  /* background-color: salmon; */
   display: flex;
 }
 
 input,
 label {
   margin: 0.5rem;
+}
+
+.btn_form {
+  padding: 1rem;
+  cursor: pointer;
+  background-color: bisque;
+  transition: all 0.8s;
+}
+
+.btn_form:hover {
+  border-radius: 50px;
 }
