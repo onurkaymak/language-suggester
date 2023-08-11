@@ -38,7 +38,6 @@ function calculator(event) {
         cSharp += 1;
     }
 
-
     if (question3.value === 'Yellow') {
         javaScript += 1;
     }
@@ -51,8 +50,6 @@ function calculator(event) {
     else {
         cSharp += 1;
     }
-
-
 
     if (question4.value === 'Wolf') {
         javaScript += 1;
@@ -85,6 +82,8 @@ function calculator(event) {
     console.log(python);
     console.log(java);
     console.log(cSharp);
+
+
 
 
 }
