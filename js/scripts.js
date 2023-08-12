@@ -81,7 +81,7 @@ function programCalculator() {
     else if (question5.value === 'No challenge please!') {
         python += 1;
     }
-    else if (question5.value === 'I drive a Challanger!') {
+    else if (question5.value === 'I drive a Challenger!') {
         java += 1;
     }
     else if (question5.value === 'Nothing scares me anymore!') {
@@ -108,9 +108,8 @@ function programCalculator() {
     }
 }
 
-
 // UI Logic
-function formCleaner() {
+function modalCleaner() {
     document.getElementById('p-js').setAttribute("class", "hidden");
     document.getElementById('p-py').setAttribute("class", "hidden");
     document.getElementById('p-jv').setAttribute("class", "hidden");
@@ -120,10 +119,9 @@ function formCleaner() {
 
 function formHandler(event) {
     event.preventDefault();
+    modalCleaner();
     programCalculator();
     document.getElementById("form").reset();
-
-
 }
 
 window.addEventListener("load", function () {

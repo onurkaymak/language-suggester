@@ -16,7 +16,7 @@ body {
   font-weight: 300;
   line-height: 1.6;
   font-size: 1.6rem;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .container_main {
@@ -45,6 +45,7 @@ h2 {
 .questions_item {
   width: 70%;
   background-color: goldenrod;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,15 +59,9 @@ h2 {
 }
 
 .questions_input-item {
-  /* background-color: yellowgreen; */
   width: 100%;
   display: flex;
   justify-content: space-around;
-}
-
-.questions_input_item-container {
-  /* background-color: salmon; */
-  display: flex;
 }
 
 input,
@@ -77,12 +72,16 @@ label {
 .btn_form {
   padding: 1rem;
   cursor: pointer;
-  background-color: bisque;
+  background-color: rgba(14, 234, 234, 0.845);
+  color: rgba(128, 128, 128, 0.7);
+  border: 0;
   transition: all 0.8s;
 }
 
 .btn_form:hover {
   border-radius: 50px;
+  color: black;
+  background-color: rgba(14, 234, 234, 0.845);
 }
 
 .hidden {
